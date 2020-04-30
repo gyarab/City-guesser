@@ -43,6 +43,8 @@
       </div>
     </div>
     <script>
+      //var hraci = hraci;
+      //var skore = skore;
       var data = localStorage.getItem("cislo"); //cislo které určí jestli je to cesko nebo svet
       var modal = document.getElementById("myModal");
       var span = document.getElementsByClassName("close")[0];
@@ -189,7 +191,11 @@
         } else {
           modal.style.display = "block";
           final.style.display = "block";
+          //hraci = hraci + 1;
+          // skore = skore + point;
+          // var prumer = hraci / skore;
           final.innerHTML = "Congratulations!! Your points are: " + point;
+          // + hraci;
         }
       }
       span.onclick = function() {
