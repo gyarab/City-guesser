@@ -1,0 +1,1460 @@
+[
+  {
+    "ID": "1",
+    "CapitalName": "Kabul",
+    "Latitude": "34.51666667",
+    "Longitude": "69.183333"
+  },
+  {
+    "ID": "2",
+    "CapitalName": "Mariehamn",
+    "Latitude": "60.116667",
+    "Longitude": "19.9"
+  },
+  {
+    "ID": "3",
+    "CapitalName": "Tirana",
+    "Latitude": "41.31666667",
+    "Longitude": "19.816667"
+  },
+  {
+    "ID": "4",
+    "CapitalName": "Algiers",
+    "Latitude": "36.75",
+    "Longitude": "3.05"
+  },
+  {
+    "ID": "5",
+    "CapitalName": "Pago Pago",
+    "Latitude": "-14.26666667",
+    "Longitude": "-170.7"
+  },
+  {
+    "ID": "6",
+    "CapitalName": "Andorra la Vella",
+    "Latitude": "42.5",
+    "Longitude": "1.516667"
+  },
+  {
+    "ID": "7",
+    "CapitalName": "Luanda",
+    "Latitude": "-8.833333333",
+    "Longitude": "13.216667"
+  },
+  {
+    "ID": "8",
+    "CapitalName": "The Valley",
+    "Latitude": "18.21666667",
+    "Longitude": "-63.05"
+  },
+  {
+    "ID": "9",
+    "CapitalName": "Saint John’s",
+    "Latitude": "17.11666667",
+    "Longitude": "-61.85"
+  },
+  {
+    "ID": "10",
+    "CapitalName": "Buenos Aires",
+    "Latitude": "-34.58333333",
+    "Longitude": "-58.666667"
+  },
+  {
+    "ID": "11",
+    "CapitalName": "Yerevan",
+    "Latitude": "40.16666667",
+    "Longitude": "44.5"
+  },
+  {
+    "ID": "12",
+    "CapitalName": "Oranjestad",
+    "Latitude": "12.51666667",
+    "Longitude": "-70.033333"
+  },
+  {
+    "ID": "13",
+    "CapitalName": "Canberra",
+    "Latitude": "-35.26666667",
+    "Longitude": "149.133333"
+  },
+  {
+    "ID": "14",
+    "CapitalName": "Vienna",
+    "Latitude": "48.2",
+    "Longitude": "49.866667"
+  },
+  {
+    "ID": "15",
+    "CapitalName": "Baku",
+    "Latitude": "40.38333333",
+    "Longitude": "13.216667"
+  },
+  {
+    "ID": "16",
+    "CapitalName": "Nassau",
+    "Latitude": "25.08333333",
+    "Longitude": "-77.35"
+  },
+  {
+    "ID": "17",
+    "CapitalName": "Manama",
+    "Latitude": "26.23333333",
+    "Longitude": "50.566667"
+  },
+  {
+    "ID": "18",
+    "CapitalName": "Dhaka",
+    "Latitude": "23.71666667",
+    "Longitude": "90.4"
+  },
+  {
+    "ID": "19",
+    "CapitalName": "Bridgetown",
+    "Latitude": "13.1",
+    "Longitude": "-59.616667"
+  },
+  {
+    "ID": "20",
+    "CapitalName": "Minsk",
+    "Latitude": "53.9",
+    "Longitude": "27.566667"
+  },
+  {
+    "ID": "21",
+    "CapitalName": "Brussels",
+    "Latitude": "50.83333333",
+    "Longitude": "4.333333"
+  },
+  {
+    "ID": "22",
+    "CapitalName": "Belmopan",
+    "Latitude": "17.25",
+    "Longitude": "-88.766667"
+  },
+  {
+    "ID": "23",
+    "CapitalName": "Porto-Novo",
+    "Latitude": "6.483333333",
+    "Longitude": "2.616667"
+  },
+  {
+    "ID": "24",
+    "CapitalName": "Hamilton",
+    "Latitude": "32.28333333",
+    "Longitude": "-64.783333"
+  },
+  {
+    "ID": "25",
+    "CapitalName": "Thimphu",
+    "Latitude": "27.46666667",
+    "Longitude": "89.633333"
+  },
+  {
+    "ID": "26",
+    "CapitalName": "La Paz",
+    "Latitude": "-16.5",
+    "Longitude": "-68.15"
+  },
+  {
+    "ID": "27",
+    "CapitalName": "Sarajevo",
+    "Latitude": "43.86666667",
+    "Longitude": "18.416667"
+  },
+  {
+    "ID": "28",
+    "CapitalName": "Gaborone",
+    "Latitude": "-24.63333333",
+    "Longitude": "25.9"
+  },
+  {
+    "ID": "29",
+    "CapitalName": "Brasilia",
+    "Latitude": "-15.78333333",
+    "Longitude": "-47.916667"
+  },
+  {
+    "ID": "30",
+    "CapitalName": "Diego Garcia",
+    "Latitude": "-7.3",
+    "Longitude": "72.4"
+  },
+  {
+    "ID": "31",
+    "CapitalName": "Road Town",
+    "Latitude": "18.41666667",
+    "Longitude": "-64.616667"
+  },
+  {
+    "ID": "32",
+    "CapitalName": "Bandar Seri Begawan",
+    "Latitude": "4.883333333",
+    "Longitude": "114.933333"
+  },
+  {
+    "ID": "33",
+    "CapitalName": "Sofia",
+    "Latitude": "42.68333333",
+    "Longitude": "23.316667"
+  },
+  {
+    "ID": "34",
+    "CapitalName": "Ouagadougou",
+    "Latitude": "12.36666667",
+    "Longitude": "-1.516667"
+  },
+  {
+    "ID": "35",
+    "CapitalName": "Bujumbura",
+    "Latitude": "-3.366666667",
+    "Longitude": "29.35"
+  },
+  {
+    "ID": "36",
+    "CapitalName": "Phnom Penh",
+    "Latitude": "11.55",
+    "Longitude": "104.916667"
+  },
+  {
+    "ID": "37",
+    "CapitalName": "Yaounde",
+    "Latitude": "3.866666667",
+    "Longitude": "11.516667"
+  },
+  {
+    "ID": "38",
+    "CapitalName": "Ottawa",
+    "Latitude": "45.41666667",
+    "Longitude": "-75.7"
+  },
+  {
+    "ID": "39",
+    "CapitalName": "Praia",
+    "Latitude": "14.91666667",
+    "Longitude": "-23.516667"
+  },
+  {
+    "ID": "40",
+    "CapitalName": "George Town",
+    "Latitude": "19.3",
+    "Longitude": "-81.383333"
+  },
+  {
+    "ID": "41",
+    "CapitalName": "Bangui",
+    "Latitude": "4.366666667",
+    "Longitude": "18.583333"
+  },
+  {
+    "ID": "42",
+    "CapitalName": "N'Djamena",
+    "Latitude": "12.1",
+    "Longitude": "15.033333"
+  },
+  {
+    "ID": "43",
+    "CapitalName": "Santiag",
+    "Latitude": "-33.45",
+    "Longitude": "-70.666667"
+  },
+  {
+    "ID": "44",
+    "CapitalName": "Beijing",
+    "Latitude": "39.91666667",
+    "Longitude": "116.383333"
+  },
+  {
+    "ID": "45",
+    "CapitalName": "The Settlement",
+    "Latitude": "-10.41666667",
+    "Longitude": "105.716667"
+  },
+  {
+    "ID": "46",
+    "CapitalName": "West Island",
+    "Latitude": "-12.16666667",
+    "Longitude": "96.833333"
+  },
+  {
+    "ID": "47",
+    "CapitalName": "Bogota",
+    "Latitude": "4.6",
+    "Longitude": "-74.083333"
+  },
+  {
+    "ID": "48",
+    "CapitalName": "Moroni",
+    "Latitude": "-11.7",
+    "Longitude": "43.233333"
+  },
+  {
+    "ID": "49",
+    "CapitalName": "Avarua",
+    "Latitude": "-21.2",
+    "Longitude": "-159.766667"
+  },
+  {
+    "ID": "50",
+    "CapitalName": "San Jose",
+    "Latitude": "9.933333333",
+    "Longitude": "-84.083333"
+  },
+  {
+    "ID": "51",
+    "CapitalName": "Yamoussoukro",
+    "Latitude": "6.816666667",
+    "Longitude": "-5.266667"
+  },
+  {
+    "ID": "52",
+    "CapitalName": "Zagreb",
+    "Latitude": "45.8",
+    "Longitude": "16"
+  },
+  {
+    "ID": "53",
+    "CapitalName": "Havana",
+    "Latitude": "23.11666667",
+    "Longitude": "-82.35"
+  },
+  {
+    "ID": "54",
+    "CapitalName": "Willemstad",
+    "Latitude": "12.1",
+    "Longitude": "-68.916667"
+  },
+  {
+    "ID": "55",
+    "CapitalName": "Nicosia",
+    "Latitude": "35.16666667",
+    "Longitude": "33.366667"
+  },
+  {
+    "ID": "56",
+    "CapitalName": "Prague",
+    "Latitude": "50.08333333",
+    "Longitude": "14.466667"
+  },
+  {
+    "ID": "57",
+    "CapitalName": "Kinshasa",
+    "Latitude": "-4.316666667",
+    "Longitude": "15.3"
+  },
+  {
+    "ID": "58",
+    "CapitalName": "Copenhagen",
+    "Latitude": "55.66666667",
+    "Longitude": "12.583333"
+  },
+  {
+    "ID": "59",
+    "CapitalName": "Djibouti",
+    "Latitude": "11.58333333",
+    "Longitude": "43.15"
+  },
+  {
+    "ID": "60",
+    "CapitalName": "Roseau",
+    "Latitude": "15.3",
+    "Longitude": "-61.4"
+  },
+  {
+    "ID": "61",
+    "CapitalName": "Santo Domingo",
+    "Latitude": "18.46666667",
+    "Longitude": "-69.9"
+  },
+  {
+    "ID": "62",
+    "CapitalName": "Quito",
+    "Latitude": "-0.216666667",
+    "Longitude": "-78.5"
+  },
+  {
+    "ID": "63",
+    "CapitalName": "Cairo",
+    "Latitude": "30.05",
+    "Longitude": "31.25"
+  },
+  {
+    "ID": "64",
+    "CapitalName": "San Salvador",
+    "Latitude": "13.7",
+    "Longitude": "-89.2"
+  },
+  {
+    "ID": "65",
+    "CapitalName": "Malabo",
+    "Latitude": "3.75",
+    "Longitude": "8.783333"
+  },
+  {
+    "ID": "66",
+    "CapitalName": "Asmara",
+    "Latitude": "15.33333333",
+    "Longitude": "38.933333"
+  },
+  {
+    "ID": "67",
+    "CapitalName": "Tallinn",
+    "Latitude": "59.43333333",
+    "Longitude": "24.716667"
+  },
+  {
+    "ID": "68",
+    "CapitalName": "Addis Ababa",
+    "Latitude": "9.033333333",
+    "Longitude": "38.7"
+  },
+  {
+    "ID": "69",
+    "CapitalName": "Stanley",
+    "Latitude": "-51.7",
+    "Longitude": "-57.85"
+  },
+  {
+    "ID": "70",
+    "CapitalName": "Torshavn",
+    "Latitude": "62",
+    "Longitude": "-6.766667"
+  },
+  {
+    "ID": "71",
+    "CapitalName": "Palikir",
+    "Latitude": "6.916666667",
+    "Longitude": "158.15"
+  },
+  {
+    "ID": "72",
+    "CapitalName": "Suva",
+    "Latitude": "-18.13333333",
+    "Longitude": "178.416667"
+  },
+  {
+    "ID": "73",
+    "CapitalName": "Helsinki",
+    "Latitude": "60.16666667",
+    "Longitude": "24.933333"
+  },
+  {
+    "ID": "74",
+    "CapitalName": "Paris",
+    "Latitude": "48.86666667",
+    "Longitude": "2.333333"
+  },
+  {
+    "ID": "75",
+    "CapitalName": "Papeete",
+    "Latitude": "-17.53333333",
+    "Longitude": "-149.566667"
+  },
+  {
+    "ID": "76",
+    "CapitalName": "Port-aux-Français",
+    "Latitude": "-49.35",
+    "Longitude": "70.216667"
+  },
+  {
+    "ID": "77",
+    "CapitalName": "Libreville",
+    "Latitude": "0.383333333",
+    "Longitude": "9.45"
+  },
+  {
+    "ID": "78",
+    "CapitalName": "Tbilisi",
+    "Latitude": "41.68333333",
+    "Longitude": "44.833333"
+  },
+  {
+    "ID": "79",
+    "CapitalName": "Berlin",
+    "Latitude": "52.51666667",
+    "Longitude": "13.4"
+  },
+  {
+    "ID": "80",
+    "CapitalName": "Accra",
+    "Latitude": "5.55",
+    "Longitude": "-0.216667"
+  },
+  {
+    "ID": "81",
+    "CapitalName": "Gibraltar",
+    "Latitude": "36.13333333",
+    "Longitude": "-5.35"
+  },
+  {
+    "ID": "82",
+    "CapitalName": "Athens",
+    "Latitude": "37.98333333",
+    "Longitude": "23.733333"
+  },
+  {
+    "ID": "83",
+    "CapitalName": "Nuuk",
+    "Latitude": "64.18333333",
+    "Longitude": "-51.75"
+  },
+  {
+    "ID": "84",
+    "CapitalName": "Saint George’s",
+    "Latitude": "12.05",
+    "Longitude": "-61.75"
+  },
+  {
+    "ID": "85",
+    "CapitalName": "Hagatna",
+    "Latitude": "13.46666667",
+    "Longitude": "144.733333"
+  },
+  {
+    "ID": "86",
+    "CapitalName": "Guatemala City",
+    "Latitude": "14.61666667",
+    "Longitude": "-90.516667"
+  },
+  {
+    "ID": "87",
+    "CapitalName": "Saint Peter Port",
+    "Latitude": "49.45",
+    "Longitude": "-2.533333"
+  },
+  {
+    "ID": "88",
+    "CapitalName": "Conakry",
+    "Latitude": "9.5",
+    "Longitude": "-13.7"
+  },
+  {
+    "ID": "89",
+    "CapitalName": "Bissau",
+    "Latitude": "11.85",
+    "Longitude": "-15.583333"
+  },
+  {
+    "ID": "90",
+    "CapitalName": "Georgetown",
+    "Latitude": "6.8",
+    "Longitude": "-58.15"
+  },
+  {
+    "ID": "91",
+    "CapitalName": "Port-au-Prince",
+    "Latitude": "18.53333333",
+    "Longitude": "-72.333333"
+  },
+  {
+    "ID": "92",
+    "CapitalName": "Tegucigalpa",
+    "Latitude": "14.1",
+    "Longitude": "-87.216667"
+  },
+  {
+    "ID": "93",
+    "CapitalName": "Budapest",
+    "Latitude": "47.5",
+    "Longitude": "19.083333"
+  },
+  {
+    "ID": "94",
+    "CapitalName": "Reykjavik",
+    "Latitude": "64.15",
+    "Longitude": "-21.95"
+  },
+  {
+    "ID": "95",
+    "CapitalName": "New Delhi",
+    "Latitude": "28.6",
+    "Longitude": "77.2"
+  },
+  {
+    "ID": "96",
+    "CapitalName": "Jakarta",
+    "Latitude": "-6.166666667",
+    "Longitude": "106.816667"
+  },
+  {
+    "ID": "97",
+    "CapitalName": "Tehran",
+    "Latitude": "35.7",
+    "Longitude": "51.416667"
+  },
+  {
+    "ID": "98",
+    "CapitalName": "Baghdad",
+    "Latitude": "33.33333333",
+    "Longitude": "44.4"
+  },
+  {
+    "ID": "99",
+    "CapitalName": "Dublin",
+    "Latitude": "53.31666667",
+    "Longitude": "-6.233333"
+  },
+  {
+    "ID": "100",
+    "CapitalName": "Douglas",
+    "Latitude": "54.15",
+    "Longitude": "-4.483333"
+  },
+  {
+    "ID": "101",
+    "CapitalName": "Jerusalem",
+    "Latitude": "31.76666667",
+    "Longitude": "35.233333"
+  },
+  {
+    "ID": "102",
+    "CapitalName": "Rome",
+    "Latitude": "41.9",
+    "Longitude": "12.483333"
+  },
+  {
+    "ID": "103",
+    "CapitalName": "Kingston",
+    "Latitude": "18",
+    "Longitude": "-76.8"
+  },
+  {
+    "ID": "104",
+    "CapitalName": "Tokyo",
+    "Latitude": "35.68333333",
+    "Longitude": "139.75"
+  },
+  {
+    "ID": "105",
+    "CapitalName": "Saint Helier",
+    "Latitude": "49.18333333",
+    "Longitude": "-2.1"
+  },
+  {
+    "ID": "106",
+    "CapitalName": "Amman",
+    "Latitude": "31.95",
+    "Longitude": "35.933333"
+  },
+  {
+    "ID": "107",
+    "CapitalName": "Astana",
+    "Latitude": "51.16666667",
+    "Longitude": "71.416667"
+  },
+  {
+    "ID": "108",
+    "CapitalName": "Nairobi",
+    "Latitude": "-1.283333333",
+    "Longitude": "36.816667"
+  },
+  {
+    "ID": "109",
+    "CapitalName": "Tarawa",
+    "Latitude": "-0.883333333",
+    "Longitude": "169.533333"
+  },
+  {
+    "ID": "110",
+    "CapitalName": "Pristina",
+    "Latitude": "42.66666667",
+    "Longitude": "21.166667"
+  },
+  {
+    "ID": "111",
+    "CapitalName": "Kuwait City",
+    "Latitude": "29.36666667",
+    "Longitude": "47.966667"
+  },
+  {
+    "ID": "112",
+    "CapitalName": "Bishkek",
+    "Latitude": "42.86666667",
+    "Longitude": "74.6"
+  },
+  {
+    "ID": "113",
+    "CapitalName": "Vientiane",
+    "Latitude": "17.96666667",
+    "Longitude": "102.6"
+  },
+  {
+    "ID": "114",
+    "CapitalName": "Riga",
+    "Latitude": "56.95",
+    "Longitude": "24.1"
+  },
+  {
+    "ID": "115",
+    "CapitalName": "Bishkek",
+    "Latitude": "42.86666667",
+    "Longitude": "74.6"
+  },
+  {
+    "ID": "116",
+    "CapitalName": "Vientiane",
+    "Latitude": "17.96666667",
+    "Longitude": "102.6"
+  },
+  {
+    "ID": "117",
+    "CapitalName": "Riga",
+    "Latitude": "56.95",
+    "Longitude": "24.1"
+  },
+  {
+    "ID": "118",
+    "CapitalName": "Beirut",
+    "Latitude": "33.86666667",
+    "Longitude": "35.5"
+  },
+  {
+    "ID": "119",
+    "CapitalName": "Maseru",
+    "Latitude": "-29.31666667",
+    "Longitude": "27.483333"
+  },
+  {
+    "ID": "120",
+    "CapitalName": "Monrovia",
+    "Latitude": "6.3",
+    "Longitude": "-10.8"
+  },
+  {
+    "ID": "121",
+    "CapitalName": "Tripoli",
+    "Latitude": "32.88333333",
+    "Longitude": "13.166667"
+  },
+  {
+    "ID": "122",
+    "CapitalName": "Vaduz",
+    "Latitude": "47.13333333",
+    "Longitude": "9.516667"
+  },
+  {
+    "ID": "123",
+    "CapitalName": "Vilnius",
+    "Latitude": "54.68333333",
+    "Longitude": "25.316667"
+  },
+  {
+    "ID": "124",
+    "CapitalName": "Luxembourg",
+    "Latitude": "49.6",
+    "Longitude": "6.116667"
+  },
+  {
+    "ID": "125",
+    "CapitalName": "Skopje",
+    "Latitude": "42",
+    "Longitude": "21.433333"
+  },
+  {
+    "ID": "126",
+    "CapitalName": "Antananarivo",
+    "Latitude": "-18.91666667",
+    "Longitude": "47.516667"
+  },
+  {
+    "ID": "127",
+    "CapitalName": "Lilongwe",
+    "Latitude": "-13.96666667",
+    "Longitude": "33.783333"
+  },
+  {
+    "ID": "128",
+    "CapitalName": "Kuala Lumpur",
+    "Latitude": "3.166666667",
+    "Longitude": "101.7"
+  },
+  {
+    "ID": "129",
+    "CapitalName": "Male",
+    "Latitude": "4.166666667",
+    "Longitude": "73.5"
+  },
+  {
+    "ID": "130",
+    "CapitalName": "Bamako",
+    "Latitude": "12.65",
+    "Longitude": "-8"
+  },
+  {
+    "ID": "131",
+    "CapitalName": "Valletta",
+    "Latitude": "35.88333333",
+    "Longitude": "14.5"
+  },
+  {
+    "ID": "132",
+    "CapitalName": "Majuro",
+    "Latitude": "7.1",
+    "Longitude": "171.383333"
+  },
+  {
+    "ID": "133",
+    "CapitalName": "Nouakchott",
+    "Latitude": "18.06666667",
+    "Longitude": "-15.966667"
+  },
+  {
+    "ID": "134",
+    "CapitalName": "Port Louis",
+    "Latitude": "-20.15",
+    "Longitude": "57.483333"
+  },
+  {
+    "ID": "135",
+    "CapitalName": "Mexico City",
+    "Latitude": "19.43333333",
+    "Longitude": "-99.133333"
+  },
+  {
+    "ID": "136",
+    "CapitalName": "Chisinau",
+    "Latitude": "47",
+    "Longitude": "28.85"
+  },
+  {
+    "ID": "137",
+    "CapitalName": "Monaco",
+    "Latitude": "43.73333333",
+    "Longitude": "7.416667"
+  },
+  {
+    "ID": "138",
+    "CapitalName": "Ulaanbaatar",
+    "Latitude": "47.91666667",
+    "Longitude": "106.916667"
+  },
+  {
+    "ID": "139",
+    "CapitalName": "Podgorica",
+    "Latitude": "42.43333333",
+    "Longitude": "19.266667"
+  },
+  {
+    "ID": "140",
+    "CapitalName": "Plymouth",
+    "Latitude": "16.7",
+    "Longitude": "-62.216667"
+  },
+  {
+    "ID": "141",
+    "CapitalName": "Rabat",
+    "Latitude": "34.01666667",
+    "Longitude": "-6.816667"
+  },
+  {
+    "ID": "142",
+    "CapitalName": "Maputo",
+    "Latitude": "-25.95",
+    "Longitude": "32.583333"
+  },
+  {
+    "ID": "143",
+    "CapitalName": "Rangoon",
+    "Latitude": "16.8",
+    "Longitude": "96.15"
+  },
+  {
+    "ID": "144",
+    "CapitalName": "Windhoek",
+    "Latitude": "-22.56666667",
+    "Longitude": "17.083333"
+  },
+  {
+    "ID": "145",
+    "CapitalName": "Yaren",
+    "Latitude": "-0.5477",
+    "Longitude": "166.920867"
+  },
+  {
+    "ID": "146",
+    "CapitalName": "Kathmandu",
+    "Latitude": "27.71666667",
+    "Longitude": "85.316667"
+  },
+  {
+    "ID": "147",
+    "CapitalName": "Amsterdam",
+    "Latitude": "52.35",
+    "Longitude": "4.916667"
+  },
+  {
+    "ID": "148",
+    "CapitalName": "Noumea",
+    "Latitude": "-22.26666667",
+    "Longitude": "166.45"
+  },
+  {
+    "ID": "149",
+    "CapitalName": "Wellington",
+    "Latitude": "-41.3",
+    "Longitude": "174.783333"
+  },
+  {
+    "ID": "150",
+    "CapitalName": "Managua",
+    "Latitude": "12.13333333",
+    "Longitude": "-86.25"
+  },
+  {
+    "ID": "151",
+    "CapitalName": "Niamey",
+    "Latitude": "13.51666667",
+    "Longitude": "2.116667"
+  },
+  {
+    "ID": "152",
+    "CapitalName": "Abuja",
+    "Latitude": "9.083333333",
+    "Longitude": "7.533333"
+  },
+  {
+    "ID": "153",
+    "CapitalName": "Alofi",
+    "Latitude": "-19.01666667",
+    "Longitude": "-169.916667"
+  },
+  {
+    "ID": "154",
+    "CapitalName": "Kingston",
+    "Latitude": "-29.05",
+    "Longitude": "167.966667"
+  },
+  {
+    "ID": "155",
+    "CapitalName": "Pyongyang",
+    "Latitude": "39.01666667",
+    "Longitude": "125.75"
+  },
+  {
+    "ID": "156",
+    "CapitalName": "North Nicosia",
+    "Latitude": "35.183333",
+    "Longitude": "33.366667"
+  },
+  {
+    "ID": "157",
+    "CapitalName": "Saipan",
+    "Latitude": "15.2",
+    "Longitude": "145.75"
+  },
+  {
+    "ID": "158",
+    "CapitalName": "Oslo",
+    "Latitude": "59.91666667",
+    "Longitude": "10.75"
+  },
+  {
+    "ID": "159",
+    "CapitalName": "Muscat",
+    "Latitude": "23.61666667",
+    "Longitude": "58.583333"
+  },
+  {
+    "ID": "160",
+    "CapitalName": "Islamabad",
+    "Latitude": "33.68333333",
+    "Longitude": "73.05"
+  },
+  {
+    "ID": "161",
+    "CapitalName": "Melekeok",
+    "Latitude": "7.483333333",
+    "Longitude": "134.633333"
+  },
+  {
+    "ID": "162",
+    "CapitalName": "Jerusalem",
+    "Latitude": "31.76666667",
+    "Longitude": "35.233333"
+  },
+  {
+    "ID": "163",
+    "CapitalName": "Panama City",
+    "Latitude": "8.966666667",
+    "Longitude": "-79.533333"
+  },
+  {
+    "ID": "164",
+    "CapitalName": "Port Moresby",
+    "Latitude": "-9.45",
+    "Longitude": "147.183333"
+  },
+  {
+    "ID": "165",
+    "CapitalName": "Asuncion",
+    "Latitude": "-25.26666667",
+    "Longitude": "-57.666667"
+  },
+  {
+    "ID": "166",
+    "CapitalName": "Lima",
+    "Latitude": "-12.05",
+    "Longitude": "-77.05"
+  },
+  {
+    "ID": "167",
+    "CapitalName": "Manila",
+    "Latitude": "14.6",
+    "Longitude": "120.966667"
+  },
+  {
+    "ID": "168",
+    "CapitalName": "Adamstown",
+    "Latitude": "-25.06666667",
+    "Longitude": "-130.083333"
+  },
+  {
+    "ID": "169",
+    "CapitalName": "Warsaw",
+    "Latitude": "52.25",
+    "Longitude": "21"
+  },
+  {
+    "ID": "170",
+    "CapitalName": "Lisbon",
+    "Latitude": "38.71666667",
+    "Longitude": "-9.133333"
+  },
+  {
+    "ID": "171",
+    "CapitalName": "San Juan",
+    "Latitude": "18.46666667",
+    "Longitude": "-66.116667"
+  },
+  {
+    "ID": "172",
+    "CapitalName": "Doha",
+    "Latitude": "25.28333333",
+    "Longitude": "51.533333"
+  },
+  {
+    "ID": "173",
+    "CapitalName": "Brazzaville",
+    "Latitude": "-4.25",
+    "Longitude": "15.283333"
+  },
+  {
+    "ID": "174",
+    "CapitalName": "Bucharest",
+    "Latitude": "44.43333333",
+    "Longitude": "26.1"
+  },
+  {
+    "ID": "175",
+    "CapitalName": "Moscow",
+    "Latitude": "55.75",
+    "Longitude": "37.6"
+  },
+  {
+    "ID": "176",
+    "CapitalName": "Kigali",
+    "Latitude": "-1.95",
+    "Longitude": "30.05"
+  },
+  {
+    "ID": "177",
+    "CapitalName": "Gustavia",
+    "Latitude": "17.88333333",
+    "Longitude": "-62.85"
+  },
+  {
+    "ID": "178",
+    "CapitalName": "Jamestown",
+    "Latitude": "-15.93333333",
+    "Longitude": "-5.716667"
+  },
+  {
+    "ID": "179",
+    "CapitalName": "Basseterre",
+    "Latitude": "17.3",
+    "Longitude": "-62.716667"
+  },
+  {
+    "ID": "180",
+    "CapitalName": "Castries",
+    "Latitude": "14",
+    "Longitude": "-61"
+  },
+  {
+    "ID": "181",
+    "CapitalName": "Marigot",
+    "Latitude": "18.0731",
+    "Longitude": "-63.0822"
+  },
+  {
+    "ID": "182",
+    "CapitalName": "Saint-Pierre",
+    "Latitude": "46.76666667",
+    "Longitude": "-56.183333"
+  },
+  {
+    "ID": "183",
+    "CapitalName": "Kingstown",
+    "Latitude": "13.13333333",
+    "Longitude": "-61.216667"
+  },
+  {
+    "ID": "184",
+    "CapitalName": "Apia",
+    "Latitude": "-13.81666667",
+    "Longitude": "-171.766667"
+  },
+  {
+    "ID": "185",
+    "CapitalName": "San Marino",
+    "Latitude": "43.93333333",
+    "Longitude": "12.416667"
+  },
+  {
+    "ID": "186",
+    "CapitalName": "Sao Tome",
+    "Latitude": "0.333333333",
+    "Longitude": "6.733333"
+  },
+  {
+    "ID": "187",
+    "CapitalName": "Riyadh",
+    "Latitude": "24.65",
+    "Longitude": "46.7"
+  },
+  {
+    "ID": "188",
+    "CapitalName": "Dakar",
+    "Latitude": "14.73333333",
+    "Longitude": "-17.633333"
+  },
+  {
+    "ID": "189",
+    "CapitalName": "Belgrade",
+    "Latitude": "44.83333333",
+    "Longitude": "20.5"
+  },
+  {
+    "ID": "190",
+    "CapitalName": "Victoria",
+    "Latitude": "-4.616666667",
+    "Longitude": "55.45"
+  },
+  {
+    "ID": "191",
+    "CapitalName": "Freetown",
+    "Latitude": "8.483333333",
+    "Longitude": "-13.233333"
+  },
+  {
+    "ID": "192",
+    "CapitalName": "Singapore",
+    "Latitude": "1.283333333",
+    "Longitude": "103.85"
+  },
+  {
+    "ID": "193",
+    "CapitalName": "Philipsburg",
+    "Latitude": "18.01666667",
+    "Longitude": "-63.033333"
+  },
+  {
+    "ID": "194",
+    "CapitalName": "Bratislava",
+    "Latitude": "48.15",
+    "Longitude": "17.116667"
+  },
+  {
+    "ID": "195",
+    "CapitalName": "Ljubljana",
+    "Latitude": "46.05",
+    "Longitude": "14.516667"
+  },
+  {
+    "ID": "196",
+    "CapitalName": "Honiara",
+    "Latitude": "-9.433333333",
+    "Longitude": "159.95"
+  },
+  {
+    "ID": "197",
+    "CapitalName": "Mogadishu",
+    "Latitude": "2.066666667",
+    "Longitude": "45.333333"
+  },
+  {
+    "ID": "198",
+    "CapitalName": "Hargeisa",
+    "Latitude": "9.55",
+    "Longitude": "44.05"
+  },
+  {
+    "ID": "199",
+    "CapitalName": "Pretoria",
+    "Latitude": "-25.7",
+    "Longitude": "28.216667"
+  },
+  {
+    "ID": "200",
+    "CapitalName": "King Edward Point",
+    "Latitude": "-54.283333",
+    "Longitude": "-36.5"
+  },
+  {
+    "ID": "201",
+    "CapitalName": "Seoul",
+    "Latitude": "37.55",
+    "Longitude": "126.983333"
+  },
+  {
+    "ID": "202",
+    "CapitalName": "Juba",
+    "Latitude": "4.85",
+    "Longitude": "31.616667"
+  },
+  {
+    "ID": "203",
+    "CapitalName": "Madrid",
+    "Latitude": "40.4",
+    "Longitude": "-3.683333"
+  },
+  {
+    "ID": "204",
+    "CapitalName": "Colombo",
+    "Latitude": "6.916666667",
+    "Longitude": "79.833333"
+  },
+  {
+    "ID": "205",
+    "CapitalName": "Khartoum",
+    "Latitude": "15.6",
+    "Longitude": "32.533333"
+  },
+  {
+    "ID": "206",
+    "CapitalName": "Paramaribo",
+    "Latitude": "5.833333333",
+    "Longitude": "-55.166667"
+  },
+  {
+    "ID": "207",
+    "CapitalName": "Longyearbyen",
+    "Latitude": "78.21666667",
+    "Longitude": "15.633333"
+  },
+  {
+    "ID": "208",
+    "CapitalName": "Mbabane",
+    "Latitude": "-26.31666667",
+    "Longitude": "31.133333"
+  },
+  {
+    "ID": "209",
+    "CapitalName": "Stockholm",
+    "Latitude": "59.33333333",
+    "Longitude": "18.05"
+  },
+  {
+    "ID": "210",
+    "CapitalName": "Bern",
+    "Latitude": "46.91666667",
+    "Longitude": "7.466667"
+  },
+  {
+    "ID": "211",
+    "CapitalName": "Damascus",
+    "Latitude": "33.5",
+    "Longitude": "36.3"
+  },
+  {
+    "ID": "212",
+    "CapitalName": "Taipei",
+    "Latitude": "25.03333333",
+    "Longitude": "121.516667"
+  },
+  {
+    "ID": "213",
+    "CapitalName": "Dushanbe",
+    "Latitude": "38.55",
+    "Longitude": "68.766667"
+  },
+  {
+    "ID": "214",
+    "CapitalName": "Dar es Salaam",
+    "Latitude": "-6.8",
+    "Longitude": "39.283333"
+  },
+  {
+    "ID": "215",
+    "CapitalName": "Bangkok",
+    "Latitude": "13.75",
+    "Longitude": "100.516667"
+  },
+  {
+    "ID": "216",
+    "CapitalName": "Banjul",
+    "Latitude": "13.45",
+    "Longitude": "-16.566667"
+  },
+  {
+    "ID": "217",
+    "CapitalName": "Dili",
+    "Latitude": "-8.583333333",
+    "Longitude": "125.6"
+  },
+  {
+    "ID": "218",
+    "CapitalName": "Lome",
+    "Latitude": "6.116666667",
+    "Longitude": "1.216667"
+  },
+  {
+    "ID": "219",
+    "CapitalName": "Atafu",
+    "Latitude": "-9.166667",
+    "Longitude": "-171.833333"
+  },
+  {
+    "ID": "220",
+    "CapitalName": "Nuku’alofa",
+    "Latitude": "-21.13333333",
+    "Longitude": "-175.2"
+  },
+  {
+    "ID": "221",
+    "CapitalName": "Port of Spain",
+    "Latitude": "10.65",
+    "Longitude": "-61.516667"
+  },
+  {
+    "ID": "222",
+    "CapitalName": "Tunis",
+    "Latitude": "36.8",
+    "Longitude": "10.183333"
+  },
+  {
+    "ID": "223",
+    "CapitalName": "Ankara",
+    "Latitude": "39.93333333",
+    "Longitude": "32.866667"
+  },
+  {
+    "ID": "224",
+    "CapitalName": "Ashgabat",
+    "Latitude": "37.95",
+    "Longitude": "58.383333"
+  },
+  {
+    "ID": "225",
+    "CapitalName": "Grand Turk",
+    "Latitude": "21.46666667",
+    "Longitude": "-71.133333"
+  },
+  {
+    "ID": "226",
+    "CapitalName": "Funafuti",
+    "Latitude": "-8.516666667",
+    "Longitude": "179.216667"
+  },
+  {
+    "ID": "227",
+    "CapitalName": "Kampala",
+    "Latitude": "0.316666667",
+    "Longitude": "32.55"
+  },
+  {
+    "ID": "228",
+    "CapitalName": "Kyiv",
+    "Latitude": "50.43333333",
+    "Longitude": "30.516667"
+  },
+  {
+    "ID": "229",
+    "CapitalName": "Abu Dhabi",
+    "Latitude": "24.46666667",
+    "Longitude": "54.366667"
+  },
+  {
+    "ID": "230",
+    "CapitalName": "London",
+    "Latitude": "51.5",
+    "Longitude": "-0.083333"
+  },
+  {
+    "ID": "231",
+    "CapitalName": "Washington, D.C.",
+    "Latitude": "38.883333",
+    "Longitude": "-77"
+  },
+  {
+    "ID": "232",
+    "CapitalName": "Montevideo",
+    "Latitude": "-34.85",
+    "Longitude": "-56.166667"
+  },
+  {
+    "ID": "233",
+    "CapitalName": "Charlotte Amalie",
+    "Latitude": "18.35",
+    "Longitude": "-64.933333"
+  },
+  {
+    "ID": "234",
+    "CapitalName": "Tashkent",
+    "Latitude": "41.31666667",
+    "Longitude": "69.25"
+  },
+  {
+    "ID": "235",
+    "CapitalName": "Port-Vila",
+    "Latitude": "-17.73333333",
+    "Longitude": "168.316667"
+  },
+  {
+    "ID": "236",
+    "CapitalName": "Vatican City",
+    "Latitude": "41.9",
+    "Longitude": "12.45"
+  },
+  {
+    "ID": "237",
+    "CapitalName": "Caracas",
+    "Latitude": "10.48333333",
+    "Longitude": "-66.866667"
+  },
+  {
+    "ID": "238",
+    "CapitalName": "Hanoi",
+    "Latitude": "21.03333333",
+    "Longitude": "105.85"
+  },
+  {
+    "ID": "239",
+    "CapitalName": "Mata-Utu",
+    "Latitude": "-13.95",
+    "Longitude": "-171.933333"
+  },
+  {
+    "ID": "240",
+    "CapitalName": "El-AaiÃºn",
+    "Latitude": "27.153611",
+    "Longitude": "-13.203333"
+  },
+  {
+    "ID": "241",
+    "CapitalName": "Sanaa",
+    "Latitude": "15.35",
+    "Longitude": "44.2"
+  },
+  {
+    "ID": "242",
+    "CapitalName": "Lusaka",
+    "Latitude": "-15.41666667",
+    "Longitude": "28.283333"
+  },
+  {
+    "ID": "243",
+    "CapitalName": "Harare",
+    "Latitude": "-17.81666667",
+    "Longitude": "31.033333"
+  }
+]

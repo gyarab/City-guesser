@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script src="https://cdn.maptiler.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+
+    <link
+      href="https://cdn.maptiler.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      #map {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -10;
+      }
+    </style>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <button type="button" onclick="tlacitko()" id="but1">Make guess!!</button>
+    <button type="button" onclick="next()" id="but2">Next!!</button>
+    <a href="index.html">
+      <button2 type="button">BACK</button2>
+    </a>
+    <button10 type="button" onclick="naCesko()" id="butt1">Czech</button10>
+    <button11 type="button" onclick="naSvet()" id="butt2">World</button11>
+    <pre id="coordinates" class="coordinates"></pre>
+    <pre id="city" class="city"></pre>
+    <pre id="count" class="count">Your points: 0</pre>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">Close</span>
+        <pre id="final" class="final"></pre>
+      </div>
+    </div>
+    <script>
+      var data = localStorage.getItem("cislo"); //cislo které určí jestli je to cesko nebo svet
+      var modal = document.getElementById("myModal");
+      var span = document.getElementsByClassName("close")[0];
+      var konecHry = 0;
+      var point = 0;
+      document.getElementById("but2").style.visibility = "hidden";
+      // You can remove the following line if you don't need support for RTL (right-to-left) labels: vygenerovane maptilerem
+      mapboxgl.setRTLTextPlugin(
+        "https://cdn.maptiler.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.1.2/mapbox-gl-rtl-text.js"
+      );
+      if (data == 1) {
+        var pozice1 = 0;
+        var pozice2 = 0;
+        var zoom1 = 4.08;
+      } else {
+        var pozice1 = 15.42076;
+        var pozice2 = 50.08804;
+        var zoom1 = 6;
+      }
+      var map = new mapboxgl.Map({
+        container: "map",
+        style:
+          "https://api.maptiler.com/maps/5d41a4c4-fbf1-4648-9d28-004190881075/style.json?key=ST3rcqoHupZFTFJgvyCN",
+        center: [pozice1, pozice2],
+        zoom: zoom1
+      });
+      var marker = new mapboxgl.Marker({
+        //znacka na mapě
+        draggable: true,
+        color: "orange"
+      })
+        .setLngLat([pozice1, pozice2])
+        .addTo(map);
+
+      var marker2 = new mapboxgl.Marker({
+        color: "black"
+      });
+      /*function onDragEnd() {
+        var lngLat1 = marker.getLngLat();
+      var lngLat2 = marker2.getLngLat();
+         coordinates.style.display = "info";
+        coordinates.innerHTML =
+          "Longitude: " + lngLat1.lng + "<br />Latitude: " + lngLat1.lat;
+        }*/
+      function distance() {
+        //změření vzdálenosti
+        var lngLat1 = marker.getLngLat();
+        var lngLat2 = marker2.getLngLat();
+        var lat1 = lngLat1.lat;
+        var lon1 = lngLat1.lng;
+        var lat2 = lngLat2.lat;
+        var lon2 = lngLat2.lng;
+        var R = 6371; // km
+        var dLat = ((lat2 - lat1) * Math.PI) / 180;
+        var dLon = ((lon2 - lon1) * Math.PI) / 180;
+        var a =
+          Math.pow(Math.sin(dLat / 2), 2) +
+          Math.cos((lat1 * Math.PI) / 180) *
+            Math.cos((lat2 * Math.PI) / 180) *
+            Math.pow(Math.sin(dLon / 2), 2);
+        var d = R * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
+        var dis = Math.round(d);
+        if (d > 1) d = Math.round(d) + "km";
+        else if (d <= 1) d = Math.round(d * 1000) + "m";
+        if (data == 1) {
+          if (dis <= 15) {
+            point = point + 200;
+          } else if (dis > 15 && dis <= 215) {
+            var plus = 200 - (dis - 15);
+            point = point + plus;
+          } else {
+            point = point + 0;
+          }
+        } else {
+          if (dis <= 8) {
+            point = point + 200;
+          } else if (dis > 8 && dis <= 28) {
+            var plus = 200 - (dis - 8) * 10;
+            point = point + plus;
+          } else {
+            point = point + 0;
+          }
+        }
+
+        count.style.display = "block";
+        count.innerHTML = "Your points: " + point;
+        return d;
+      }
+      function tlacitko() {
+        if (data == 1) {
+          fetch("/mesta.json").then(resp =>
+            resp.json().then(mesta => {
+              marker2.addTo(map);
+              coordinates.style.display = "block";
+              coordinates.innerHTML = " Distance: " + distance();
+            })
+          );
+        } else {
+          fetch("/cr.json").then(resp =>
+            resp.json().then(cr => {
+              marker2.addTo(map);
+              coordinates.style.display = "block";
+              coordinates.innerHTML = " Distance: " + distance();
+            })
+          );
+        }
+        document.getElementById("but1").style.visibility = "hidden";
+        document.getElementById("but2").style.visibility = "visible";
+      }
+      function next() {
+        //funkce dalšího města
+        if (konecHry < 10) {
+          if (data == 1) {
+            var n = Math.floor(Math.random() * 242);
+            fetch("/mesta.json").then((
+              resp //databaze
+            ) =>
+              resp.json().then(mesta => {
+                //console.log(mesta);
+                marker2.setLngLat([mesta[n].Longitude, mesta[n].Latitude]);
+                city.style.display = "block";
+                city.innerHTML = "Find city: " + mesta[n].CapitalName;
+              })
+            );
+          } else {
+            var n = Math.floor(Math.random() * 49);
+            fetch("/cr.json").then((
+              resp //databaze
+            ) =>
+              resp.json().then(cr => {
+                //console.log(cr);
+                marker2.setLngLat([cr[n].Longitude, cr[n].Latitude]);
+                city.style.display = "block";
+                city.innerHTML = "Find city: " + cr[n].CapitalName;
+              })
+            );
+          }
+          marker2.remove();
+          document.getElementById("but2").style.visibility = "hidden";
+          document.getElementById("but1").style.visibility = "visible";
+          coordinates.style.display = "block";
+          coordinates.innerHTML = "";
+          konecHry = konecHry + 1;
+        } else {
+          modal.style.display = "block";
+          final.style.display = "block";
+          final.innerHTML = "Congratulations!! Your points are: " + point;
+        }
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+        window.location.href = "hra.html";
+      };
+      function naSvet() {
+        data = 1;
+      }
+      function naCesko() {
+        data = 2;
+      }
+      /*marker.on("dragend", distance);
+      marker2.on("dragend", distance);*/
+      next();
+    </script>
+  </body>
+</html>

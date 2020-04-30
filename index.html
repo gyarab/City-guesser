@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>WELCOME</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        background-image: url("planetyfinal.png"), url("vesmir.png");
+        background-repeat: no-repeat, repeat;
+        background-position: center, center;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="hra.html">
+      <button3 type="button" onclick="svet()">GAME - Capitals</button3>
+    </a>
+    <a href="hra.html">
+      <button13 type="button" onclick="cesko()">GAME - Cesko</button13>
+    </a>
+    <a href="about.html">
+      <button4 type="button">GUIDE</button4>
+    </a>
+  </body>
+  <script>
+    var data1 = 1;
+    function svet() {
+      data1 = 1;
+      localStorage.setItem("cislo", 1);
+    }
+    function cesko() {
+      data1 = 2;
+      localStorage.setItem("cislo", 2);
+    }
+  </script>
+</html>
